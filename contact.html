@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap project site</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/573145b7a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg bg-color py-5 pt-lg-5">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Hi-Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="#online-section">service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-capitalize" href="./contact.html">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- contact section start -->
+    <section class="contact-section text-white common-section pt-5 bg-color" id="#contact-section">
+
+        <div class="container text-center common-title fw-bold">
+            <h2 class="common-heading text-white">contact us</h2>
+            <hr class="w-25 mx-auto" />
+        </div>
+
+        <div class="container">
+            <div class="form-section mx-auto">
+                <form>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <label for="formUserFirstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="formUserFirstName"
+                                    placeholder="enter your first name" required />
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="formUserLastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="formUserLastName"
+                                    placeholder="enter your last name" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+    <footer class="main-footer-section bg-color">
+        <div class="contact-details">
+            <div class="container px-5">
+                <div class="row g-0">
+                    <div class="col-lg-4">
+                        <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon-div d-flex justify-content-between align-items-center rounded-circle mb-3">
+                                <img src="./images/phone.gif" alt="phonegif image" class="img-fluid" />
+                            </div>
+                            <p class="text-white">(+00) 123456789</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon-div d-flex justify-content-between align-items-center rounded-circle mb-3">
+                                <img src="./images/message.gif" alt="message image" class="img-fluid" />
+                            </div>
+                            <p class="text-white">(+00) 123456789</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="contact-div p-5 d-flex flex-column justify-content-center align-items-center">
+                            <div class="icon-div d-flex justify-content-between align-items-center rounded-circle mb-3">
+                                <img src="./images/map-gif.gif" alt="map image" class="img-fluid" />
+                            </div>
+                            <p class="text-white">(+00) 123456789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-section py-5 text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-lg-2 col-md-6">
+                            <div class="footer-links">
+                                <h4 class="text-white mt-5 mb-3">About</h4>
+                                <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-6">
+                            <div class="footer-links">
+                                <h4 class="text-white mt-5 mb-3">About</h4>
+                                <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-6">
+                            <div class="footer-links">
+                                <h4 class="text-white mt-5 mb-3">About</h4>
+                                <ul class="text-light-grey list-unstyled d-flex flex-column gap-2">
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                    <li>our story</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div class="footer-links">
+                                <h4 class="text-white mt-5 mb-3">Subscirbe</h4>
+                                <div class="input-group mb-3 w-75">
+                                    <input type="text" class="form-control" placeholder="Recipient's username"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                    <span class="input-group-text btn btn-primary" id="basic-addon2">Subscribe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <hr class="container mx-auto">
+
+
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        Copyright &copy;2023 All right reserved. | This template is made with by <span
+                            class="bg-theme">BTech.com</span>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="d-flex justify-content-center jusitfy-content-lg-end gap-5 mt-lg-0 mt-3">
+
+                            <a href="#">
+                                <div
+                                    class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </a>
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="tooltip"]'
+        );
+        const tooltipList = [...tooltipTriggerList].map(
+            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+        );
+    </script>
+</body>
+
+</html>
